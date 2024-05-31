@@ -2,13 +2,15 @@
 
 # Welcome Collaborators!
 
-This is the first hackathon project that we're collaborating on. We're excited to have you on board. 
+This is the first hackathon project that we're collaborating on. Very excited to have you on board. 
 
-This project is a great opportunity for us to work together and create something amazing.
+This project is a great opportunity for us to work together and create something amazing whilst testing the skills we've learnt so far.
+
+We're here to have fun and prove, four minds together are better than one.
 
 ## Safeguarding
 
-We are committed to creating a safe and respectful environment for all collaborators. We expect everyone to adhere to our code of conduct, which includes:
+We are committed to creating a safe and respectful environment for all collaborators. We expect everyone to adhere to Code Institute's code of conduct, which includes:
 
 - Respecting each other's ideas and feedback
 - Communicating openly and constructively
@@ -21,7 +23,7 @@ Please remember that this is a collaborative space where we want everyone to fee
 
 ## Celebrating Diversity
 
-We believe that our project is stronger with a diverse team. We celebrate the diversity of our collaborators and believe that our differences in race, color, ethnicity, national origin, age, gender, sexual orientation, gender identity, marital status, socioeconomic status, physical ability, language, religion, and life experience make us stronger.
+We believe that our project is stronger with a diverse team. We celebrate the diversity of our collaborators and believe that our differences stronger.
 
 We are committed to creating an inclusive environment where everyone feels valued and heard, and where everyone can learn and grow. We encourage everyone to bring their authentic selves to the project.
 
@@ -31,6 +33,10 @@ We look forward to collaborating with you, learning from you, and creating somet
 
 ## Our Project
 
-Find all our Project details in our-hackathon-details folder
+Find all our Project details in our-hackathon-details folder, for some reason .pdf files dont seem to work on VSCode so I converted a few into png images just so we have a page to reference when working out our code.
+
+I think I will leave it here for now and wait until we have a our first scrum.
+
+
 
 # HAPPY CODING!!

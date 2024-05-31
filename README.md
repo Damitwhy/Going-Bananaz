@@ -37,6 +37,6 @@ Find all our Project details in our-hackathon-details folder, for some reason .p
 
 I think I will leave it here for now and wait until we have a our first scrum.
 
-
+To read the pdf files on VSCode get the extension.. vscode-pdf
 
 # HAPPY CODING!!

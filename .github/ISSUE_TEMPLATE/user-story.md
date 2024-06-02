@@ -8,3 +8,13 @@ assignees: ''
 ---
 
 As a **role** I can **capability** so that **received benefit**
+
+## Accepted Criteria:
+1.
+2.
+3.
+
+## Tasks: 
+-[ ] Task1
+-[ ] Task2
+-[ ] Task3

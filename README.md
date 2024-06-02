@@ -23,7 +23,7 @@ Please remember that this is a collaborative space where we want everyone to fee
 
 ## Celebrating Diversity
 
-We believe that our project is stronger with a diverse team. We celebrate the diversity of our collaborators and believe that our differences stronger.
+We believe that our project is stronger with a diverse team. We celebrate the diversity of our collaborators and believe that our differences make us stronger.
 
 We are committed to creating an inclusive environment where everyone feels valued and heard, and where everyone can learn and grow. We encourage everyone to bring their authentic selves to the project.
 
@@ -37,6 +37,6 @@ Find all our Project details in our-hackathon-details folder, for some reason .p
 
 I think I will leave it here for now and wait until we have a our first scrum.
 
-To read the pdf files on VSCode get the extension.. vscode-pdf
+Just discovered to read the pdf files on VSCode get the extension.. vscode-pdf
 
 # HAPPY CODING!!

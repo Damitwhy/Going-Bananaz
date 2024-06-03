@@ -1,17 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*body {
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-} */
-
-h1 {
-    font-size: xx-large;
 }
 
 /*----------Footer*/
@@ -20,17 +18,15 @@ footer {
     margin: auto;
     background-color: bisque;
     display: inline-flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 .footer-details {
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 20%;
 }
-
-/*footer > .col-lg-5 {
-    margin-top: 40px;
-    margin-left: 20px;
-}*/
 
 .social-media {
     display: block;

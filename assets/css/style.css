@@ -116,8 +116,25 @@ footer i:hover {
 
 }
 
+/* ------------------------------------------------- Main--landing */
 
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px 150px 50px;
+}
 
+.container-main h2 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    padding-top: 25px;
+}
 
 
 

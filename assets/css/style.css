@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*----------Footer*/
+
+footer {
+    min-height: 120px;
+    margin: 0;
+}
+
+.list-inline {
+    text-align: center;
+}

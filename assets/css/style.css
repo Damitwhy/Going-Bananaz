@@ -1,5 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #fafafa;
+}
+
+/* Header */
+#logo {
+    background: url("../images/Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+#header-img {
+    background: url("../images/header.png");
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+
+}
+
+.nav-item {
+    
+}
+
+.width-full {
+    width: 100%
+}
+
+.margin-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.heading {
+    font-family: "Comfortaa", san-serif;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.col-2 {
+    border: solid black;
+    height: 200px;
+}
+
+.col-4 {
+    border: solid blueviolet;
+    align-self: center;
+    height: 98px;
+}
+
+.col-8 {
+    border: solid blue;
+    height: 200px;
 }

@@ -16,7 +16,8 @@ body {
 
 footer {
     margin: auto;
-    background-color: bisque;
+    /*background: url('./images/background-image.jpg');*/
+    background-color: #fafafa;
     display: inline-flex;
     position: fixed;
     left: 0;
@@ -25,6 +26,16 @@ footer {
 
 p {
     font-family: "Comfortaa", sans-serif;
+    color: #342c57;
+    font-weight: 800;
+}
+
+i {
+     color: #342c57;
+}
+
+i:hover {
+    font-size: larger;
 }
 
 .footer-details {

@@ -12,6 +12,67 @@ body {
     flex-direction: column;
 }
 
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header */
+#logo {
+    background: url("../images/Logo.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border: outset;
+    height: 200px;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    min-height: 75px;
+    background-color: rgb(0, 110, 150, 0.5);
+}
+
+.nav-item {
+    font-family: "Comfortaa", san-serif;
+    display: flex;
+}
+
+.nav-item i {
+    padding-right: 5px
+}
+
+.nav-item a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: white;
+}
+
+.heading {
+    font-family: "Comfortaa", san-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.header {
+    border: solid black;
+    min-height: 125px;
+    text-align: center;
+  background-color: rgba(195, 255, 155, 0.5); 
+}
+
 /*----------Footer*/
 
 footer {
@@ -24,17 +85,17 @@ footer {
     bottom: 0;
 }
 
-p {
+footer p {
     font-family: "Comfortaa", sans-serif;
     color: #342c57;
     font-weight: 800;
 }
 
-i {
+footer i {
      color: #342c57;
 }
 
-i:hover {
+footer i:hover {
     font-size: larger;
 }
 
@@ -52,4 +113,66 @@ i:hover {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Medium devices (600px to 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    
+}
+
+/* Large devices (900px to 1200px) */
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    
+}
+
+/* Extra-large devices (1200px and above) */
+@media only screen and (min-width: 1201px) {
+
+}
 }

@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-html {
-    height: 100%;
-    width: 100%;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
 }
 
 /* Header */
@@ -63,5 +63,68 @@ html {
     border: solid black;
     min-height: 125px;
     text-align: center;
-    background-color: rgba(195, 255, 155, 0.5);
+  background-color: rgba(195, 255, 155, 0.5); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Medium devices (600px to 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    
+}
+
+/* Large devices (900px to 1200px) */
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    
+}
+
+/* Extra-large devices (1200px and above) */
+@media only screen and (min-width: 1201px) {
+
 }

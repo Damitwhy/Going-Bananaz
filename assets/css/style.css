@@ -1,9 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header */
+#logo {
+    background: url("../images/Logo.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border: outset;
+    height: 200px;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    min-height: 75px;
+    background-color: rgb(0, 110, 150, 0.5);
+}
+
+.nav-item {
+    font-family: "Comfortaa", san-serif;
+    display: flex;
+}
+
+.nav-item i {
+    padding-right: 5px
+}
+
+.nav-item a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: white;
+}
+
+.heading {
+    font-family: "Comfortaa", san-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.header {
+    border: solid black;
+    min-height: 125px;
+    text-align: center;
+  background-color: rgba(195, 255, 155, 0.5); 
+}
 
 
 

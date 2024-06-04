@@ -17,7 +17,10 @@ html {
     width: 100%;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: "Comfortaa", san-serif;
     margin-top: 15px;
 }
@@ -73,16 +76,29 @@ p {
     color: black;
     height: 125px;
     text-align: center;
-  background-color: rgba(240, 131, 95); 
+    background-color: rgba(240, 131, 95);
 }
 
 /* Content */
 #cal {
-    margin: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: center;
+    min-width: 160px;
 }
 
-#cal h2 {
-    text-decoration: underline;
+.heading-2 {
+    background-color: #5b7a98;
+    color: black;
+    margin: 0;
+    border: solid;
+}
+
+.accordion-button {
+    background-color: #d5f4ff;
+    padding: 0px;
+    padding-left: 10px;
+    border: solid;
 }
 
 /*----------Footer*/
@@ -104,7 +120,7 @@ footer p {
 }
 
 footer i {
-     color: #342c57;
+    color: #342c57;
 }
 
 footer i:hover {
@@ -156,21 +172,13 @@ footer i:hover {
 }
 
 /* Small devices (up to 600px) */
-@media only screen and (max-width: 600px) {
-    
-}
+@media only screen and (max-width: 600px) {}
 
 /* Medium devices (600px to 900px) */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    
-}
+@media only screen and (min-width: 601px) and (max-width: 900px) {}
 
 /* Large devices (900px to 1200px) */
-@media only screen and (min-width: 901px) and (max-width: 1200px) {
-
-}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {}
 
 /* Extra-large devices (1200px and above) */
-@media only screen and (min-width: 1201px) {
-
-}
+@media only screen and (min-width: 1201px) {}

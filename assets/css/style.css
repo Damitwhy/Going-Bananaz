@@ -106,10 +106,8 @@ p {
 
 footer {
     margin: auto;
-    /*background: url('./images/background-image.jpg');*/
-    background-color: #fafafa;
+    background-color: #f0835f;
     display: inline-flex;
-    position: fixed;
     left: 0;
     bottom: 0;
 }
@@ -118,6 +116,7 @@ footer p {
     font-family: "Comfortaa", sans-serif;
     color: #342c57;
     font-weight: 800;
+    font-size: small;
 }
 
 footer i {
@@ -129,8 +128,16 @@ footer i:hover {
 }
 
 .footer-details {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 20%;
+}
+
+.copyright {
+    display: inline-flex;
+}
+
+.fa-copyright {
+    font-size: large;
 }
 
 .social-media {
@@ -171,6 +178,45 @@ footer i:hover {
     border-radius: 15px;
     padding-bottom: 10px;
 }
+
+
+/* ------------------------------------------------- contact page */
+
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Small devices (up to 600px) */
 @media only screen and (max-width: 600px) {}

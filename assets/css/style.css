@@ -84,7 +84,8 @@ p {
     padding-top: 15px;
     padding-left: 15px;
     text-align: center;
-    min-width: 160px;
+    min-width: 180px;
+    height: fit-content;
 }
 
 .heading-2 {

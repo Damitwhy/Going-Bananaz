@@ -158,7 +158,7 @@ footer i:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px 0px 150px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 .container-main h2 {
@@ -175,8 +175,39 @@ footer i:hover {
 .container-main img {
     width: 100%;
     height: 100%;
+    border: 3px solid #F0835F;
     border-radius: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+}
+
+.accordion-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #F0835F;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: 20px 10px 30px 10px;
+}
+
+.accordion-main-bg {
+    background-image: url("../images/background-image.jpg");
+}
+
+.container-main .text {
+    margin-bottom: 20px;
+}
+
+.accordion-main h2 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    display: inline;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 

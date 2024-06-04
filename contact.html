@@ -69,15 +69,32 @@
                     <input type="email" class="form-control" id="email" placeholder="name@example.com">
                 </div>
                 <div class="mb-3">
-                    <label for="age" class="form-label">Age</label>
+                    <label for="age" class="form-label">Age (Optional)</label>
                     <input type="number" class="form-control" id="password" placeholder="Your age">
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Share your story</label>
                     <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <p>Do you want us to publish your story in this website?</p>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Yes
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      No
+                    </label>
+                  </div>
+
+                <button type="submit" class="btn btn-primary" style="background-color: #f0835f; color: #ffffff;">Submit</button>
+
             </form>
+
         </div>
 
     </main>

@@ -76,7 +76,7 @@ html {
 /*----------Footer*/
 
 footer {
-    margin: auto;
+    margin-top: auto;
     background-color: #f0835f;
     display: inline-flex;
     left: 0;

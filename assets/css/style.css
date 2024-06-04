@@ -146,8 +146,13 @@ footer i:hover {
 
 
 
+/* ------------------------------------------------- contact page */
 
 
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
 
 
 

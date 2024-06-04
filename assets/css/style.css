@@ -80,7 +80,6 @@ footer {
     /*background: url('./images/background-image.jpg');*/
     background-color: #fafafa;
     display: inline-flex;
-    position: fixed;
     left: 0;
     bottom: 0;
 }
@@ -100,8 +99,12 @@ footer i:hover {
 }
 
 .footer-details {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 20%;
+}
+
+.fa-copyright {
+    font-size: larger;
 }
 
 .social-media {
@@ -113,7 +116,6 @@ footer i:hover {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-
 }
 
 /* ------------------------------------------------- Main--landing */

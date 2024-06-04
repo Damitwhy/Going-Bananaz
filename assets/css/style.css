@@ -36,7 +36,7 @@ html {
 
 .nav {
     min-height: 75px;
-    background-color: rgb(0, 110, 150, 0.5);
+    background-color: #ffe6d6;
 }
 
 .nav-item {
@@ -44,15 +44,11 @@ html {
     display: flex;
 }
 
-.nav-item i {
-    padding-right: 5px
-}
-
 .nav-item a {
     display: flex;
     flex-direction: column;
     align-self: center;
-    color: white;
+    color: black;
 }
 
 .heading {
@@ -67,9 +63,10 @@ html {
 
 .header {
     border: solid black;
+    color: black;
     height: 125px;
     text-align: center;
-  background-color: rgba(195, 255, 155, 0.5); 
+  background-color: rgba(240, 131, 95); 
 }
 
 /*----------Footer*/

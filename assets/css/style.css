@@ -103,6 +103,11 @@ footer i:hover {
     margin-left: 20%;
 }
 
+.footer-img {
+    background: url('../images/footer.png');
+    background-size: contain;
+}
+
 .copyright {
     display: inline-flex;
 }

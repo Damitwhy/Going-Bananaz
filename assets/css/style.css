@@ -12,10 +12,21 @@ body {
     flex-direction: column;
 }
 
-
 html {
     height: 100%;
     width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Comfortaa", san-serif;
+    margin-top: 15px;
+}
+
+p {
+    margin: 0;
 }
 
 /* Header */
@@ -36,7 +47,7 @@ html {
 
 .nav {
     min-height: 75px;
-    background-color: rgb(0, 110, 150, 0.5);
+    background-color: #ffe6d6;
 }
 
 .nav-item {
@@ -44,33 +55,51 @@ html {
     display: flex;
 }
 
-.nav-item i {
-    padding-right: 5px
-}
-
 .nav-item a {
     display: flex;
     flex-direction: column;
     align-self: center;
-    color: white;
+    color: black;
 }
 
 .heading {
     font-family: "Comfortaa", san-serif;
     font-size: 50px;
     font-weight: 700;
-    text-decoration: underline;
-    text-align: center;
+    align-self: center;
     display: inline-block;
-    align-items: center;
-    padding-top: 25px;
+    margin: 0;
 }
 
 .header {
     border: solid black;
-    min-height: 125px;
+    color: black;
+    height: 125px;
     text-align: center;
-  background-color: rgba(195, 255, 155, 0.5); 
+    background-color: rgba(240, 131, 95);
+}
+
+/* Content */
+#cal {
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: center;
+    min-width: 180px;
+    height: fit-content;
+}
+
+.heading-2 {
+    background-color: #5b7a98;
+    color: black;
+    margin: 0;
+    border: solid;
+}
+
+.accordion-button {
+    background-color: #d5f4ff;
+    padding: 0px;
+    padding-left: 10px;
+    border: solid;
 }
 
 /*----------Footer*/
@@ -91,7 +120,7 @@ footer p {
 }
 
 footer i {
-     color: #342c57;
+    color: #342c57;
 }
 
 footer i:hover {
@@ -125,7 +154,6 @@ footer i:hover {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-
 }
 
 /* ------------------------------------------------- Main--landing */
@@ -135,14 +163,14 @@ footer i:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px 0px 150px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 .container-main h2 {
     font-family: "Comfortaa", sans-serif;
     font-size: 35px;
     font-weight: 700;
-    text-align: center;
+    /* text-align: center; */
     display: inline-block;
     align-items: center;
     padding-top: 30px;
@@ -151,15 +179,62 @@ footer i:hover {
 
 .container-main img {
     width: 100%;
-    height: 100%;
+    height: 85%;
+    max-width: 600px;
+    border: 3px solid #F0835F;
     border-radius: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.container-main hr {
+    border-top: 3px solid #F0835F;
+}
+
+.accordion-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #F0835F;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: 20px 10px 30px 10px;
+}
+
+.accordion-main-bg {
+    background-image: url("../images/background-image.jpg");
+}
+
+.container-main .text {
+    margin-bottom: 20px;
+}
+
+.accordion-main h2 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    display: inline;
+    align-items: center;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 
+.accordion-main p {
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 
+/* ------------------------------------------------- contact page */
 
 
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
 
 
 
@@ -192,22 +267,13 @@ footer i:hover {
 
 
 /* Small devices (up to 600px) */
-@media only screen and (max-width: 600px) {
-    
-}
+@media only screen and (max-width: 600px) {}
 
 /* Medium devices (600px to 900px) */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    
-}
+@media only screen and (min-width: 601px) and (max-width: 900px) {}
 
 /* Large devices (900px to 1200px) */
-@media only screen and (min-width: 901px) and (max-width: 1200px) {
-    
-}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {}
 
 /* Extra-large devices (1200px and above) */
-@media only screen and (min-width: 1201px) {
-
-}
-}
+@media only screen and (min-width: 1201px) {}

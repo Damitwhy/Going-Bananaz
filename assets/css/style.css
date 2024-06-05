@@ -202,7 +202,7 @@ footer i:hover {
 
 .container-main img {
     width: 100%;
-    height: 85%;
+    height: auto;
     max-width: 600px;
     border: 3px solid #F0835F;
     border-radius: 15px;

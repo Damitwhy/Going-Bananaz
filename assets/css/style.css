@@ -20,7 +20,9 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
     font-family: "Comfortaa", san-serif;
     margin-top: 15px;
 }
@@ -76,16 +78,37 @@ p {
     color: black;
     height: 125px;
     text-align: center;
-    background-color: rgba(240, 131, 95);
+    background-color: #f0835f;
 }
 
 /* Content */
 #cal {
-    padding-top: 15px;
-    padding-left: 15px;
+    padding: 15px;
     text-align: center;
     min-width: 180px;
     height: fit-content;
+}
+
+#stories {
+    border: solid #f0835f;
+    margin: 0;
+    height: fit-content;
+}
+
+#stories h2,h4 {
+    text-decoration: underline;
+    text-align: justify;
+}
+
+#stories p {
+    font-family: "Comic Neue", cursive;
+}
+
+.page {
+    margin: 15px;
+    border: solid #f0835f;
+    height: fit-content;
+    min-width: 200px;
 }
 
 .heading-2 {
@@ -101,6 +124,7 @@ p {
     padding-left: 10px;
     border: solid;
 }
+
 
 /*----------Footer*/
 
@@ -231,10 +255,16 @@ footer i:hover {
 /* ------------------------------------------------- contact page */
 
 
-.img-fluid {
-    max-width: 50%;
+
+.rounded-image {
+    width: 100%;
+    max-width: 260px; /* Adjust as needed */
     height: auto;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    border: 3px solid #F0835F; /* Border color and thickness */
 }
+
 
 /* ------------------------------------------------- guide page*/
 
@@ -246,6 +276,7 @@ footer i:hover {
     text-transform: capitalize;
     font-weight: 600;
 }
+
 
 
 

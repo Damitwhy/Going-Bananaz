@@ -236,6 +236,18 @@ footer i:hover {
     height: auto;
 }
 
+/* ------------------------------------------------- guide page*/
+
+.guide-acc {
+    background-color: #ffe6d6;
+}
+
+.list-item-heading {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+
 
 
 

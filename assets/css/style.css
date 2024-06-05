@@ -265,6 +265,7 @@ footer i:hover {
 }
 
 
+
 /* ------------------------------------------------- guide page*/
 
 .guide-acc {
@@ -274,11 +275,22 @@ footer i:hover {
 .list-item-heading {
     text-transform: capitalize;
     font-weight: 600;
+
 }
 
 
 
 
+.btn-primary {
+    background-color: #F0835F;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e6ab98; /* A darker shade for hover effect */
+    color: #fff;
+}
 
 
 

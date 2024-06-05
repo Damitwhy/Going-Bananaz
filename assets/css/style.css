@@ -105,7 +105,7 @@ p {
 /*----------Footer*/
 
 footer {
-    margin: auto;
+    margin-top: auto;
     background-color: #f0835f;
     display: inline-flex;
     left: 0;
@@ -130,6 +130,11 @@ footer i:hover {
 .footer-details {
     margin-top: 10px;
     margin-left: 20%;
+}
+
+.footer-img {
+    background: url('../images/footer.png');
+    background-size: contain;
 }
 
 .copyright {

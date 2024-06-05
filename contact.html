@@ -99,20 +99,38 @@
                     <label for="message" class="form-label">Share your story</label>
                     <textarea class="form-control" id="message" rows="3" placeholder="Your message" aria-required="true" required></textarea>
                 </div>
+            
+
                 <p>Do you want us to publish your story on this website?</p>
-        
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" aria-labelledby="publishYes">
-                    <label class="form-check-label" for="flexCheckDefault" id="publishYes">
-                      Yes
+                    <input class="form-check-input" type="radio" name="legalAdvice" id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked aria-labelledby="publishNo">
-                    <label class="form-check-label" for="flexCheckChecked" id="publishNo">
-                      No
+                    <input class="form-check-input" type="radio" name="legalAdvice" id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
                     </label>
                 </div>
+
+                <p>Do you need legal advice?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="legalAdvice" id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="legalAdvice" id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
+                
+
+
                 <div id="submit">
                     <button type="submit" class="btn btn-primary" style="background-color: #f0835f; color: #ffffff;">Submit</button>
                 </div>

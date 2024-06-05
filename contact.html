@@ -102,14 +102,14 @@
             
 
                 <p>Do you want us to publish your story on this website?</p>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="legalAdvice" id="flexRadioDefault1" value="yes">
+                <div class="form-check" aria-required="true">
+                    <input class="form-check-input" type="radio" name="publish" id="flexRadioDefault1" value="yes" required>
                     <label class="form-check-label" for="flexRadioDefault1">
                         Yes
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="legalAdvice" id="flexRadioDefault2" value="no">
+                    <input class="form-check-input" type="radio" name="publish" id="flexRadioDefault2" value="no">
                     <label class="form-check-label" for="flexRadioDefault2">
                         No
                     </label>
@@ -117,7 +117,7 @@
 
                 <p>Do you need legal advice?</p>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="legalAdvice" id="flexRadioDefault1" value="yes">
+                    <input class="form-check-input" type="radio" name="legalAdvice" id="flexRadioDefault1" value="yes" required>
                     <label class="form-check-label" for="flexRadioDefault1">
                         Yes
                     </label>
@@ -130,12 +130,18 @@
                 </div>
                 
 
-
                 <div id="submit">
-                    <button type="submit" class="btn btn-primary" style="background-color: #F0835F;">Submit</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
+
             </form>
         </div>
+
+        <video width="600" controls>
+            <source src="diversity-video.mp4" type="video/mp4">
+          
+            Your browser does not support the video tag.
+        </video>
         
     </main>
 

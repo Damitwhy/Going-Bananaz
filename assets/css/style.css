@@ -279,12 +279,17 @@ footer i:hover {
 
 }
 
-/*.strong {
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 800;
+.more-info {
+    display: flex;
+    flex-wrap: wrap;
 }
-*/
 
+.gp-vid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2.5rem;
+}
 
 .btn-primary {
     background-color: #F0835F;
@@ -297,7 +302,12 @@ footer i:hover {
     color: #fff;
 }
 
-
+#iframe {
+    margin: 1.5rem;
+    border: 1px solid #f0835f;
+    aspect-ratio: 16 / 9;
+    width: 100%; 
+}
 
 
 
@@ -326,10 +336,21 @@ footer i:hover {
 
 
 /* Small devices (up to 600px) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    /*------------------------------------------------- guide page*/
+
+    .gp-vid {
+        max-width: fit-content;
+    }
+}
 
 /* Medium devices (600px to 900px) */
-@media only screen and (min-width: 601px) and (max-width: 900px) {}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+    .gp-vid {
+        max-width: fit-content;
+    }
+}
 
 /* Large devices (900px to 1200px) */
 @media only screen and (min-width: 901px) and (max-width: 1200px) {}

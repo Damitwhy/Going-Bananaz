@@ -273,12 +273,17 @@ footer i:hover {
 }
 
 .list-item-heading {
-    text-transform: capitalize;
+    font-family: "Comfortaa", sans-serif;
+    font-size: larger;
     font-weight: 600;
 
 }
 
-
+/*.strong {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 800;
+}
+*/
 
 
 .btn-primary {

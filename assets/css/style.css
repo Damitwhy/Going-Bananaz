@@ -20,7 +20,9 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
     font-family: "Comfortaa", san-serif;
     margin-top: 15px;
 }
@@ -76,16 +78,36 @@ p {
     color: black;
     height: 125px;
     text-align: center;
-    background-color: rgba(240, 131, 95);
+    background-color: #f0835f;
 }
 
 /* Content */
 #cal {
-    padding-top: 15px;
-    padding-left: 15px;
+    padding: 15px;
     text-align: center;
     min-width: 180px;
     height: fit-content;
+}
+
+#stories {
+    margin: 0;
+    height: fit-content;
+}
+
+#stories h2,h4 {
+    text-decoration: underline;
+    text-align: justify;
+}
+
+#stories p {
+    font-family: "Comic Neue", cursive;
+}
+
+.page {
+    margin: 15px;
+    border: solid #f0835f;
+    height: fit-content;
+    min-width: 200px;
 }
 
 .heading-2 {
@@ -101,6 +123,7 @@ p {
     padding-left: 10px;
     border: solid;
 }
+
 
 /*----------Footer*/
 
@@ -241,11 +264,18 @@ footer i:hover {
     border: 3px solid #F0835F; /* Border color and thickness */
 }
 
-.container-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh; /* Full viewport height */
+
+
+/* ------------------------------------------------- guide page*/
+
+.guide-acc {
+    background-color: #ffe6d6;
+}
+
+.list-item-heading {
+    text-transform: capitalize;
+    font-weight: 600;
+
 }
 
 
@@ -261,6 +291,13 @@ footer i:hover {
     background-color: #e6ab98; /* A darker shade for hover effect */
     color: #fff;
 }
+
+
+
+
+
+
+
 
 
 

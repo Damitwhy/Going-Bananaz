@@ -231,15 +231,22 @@ footer i:hover {
 /* ------------------------------------------------- contact page */
 
 
-.img-fluid {
-    max-width: 50%;
+
+.rounded-image {
+    width: 100%;
+    max-width: 260px; /* Adjust as needed */
     height: auto;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    border: 3px solid #F0835F; /* Border color and thickness */
 }
 
-
-
-
-
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23vh; /* Full viewport height */
+}
 
 
 

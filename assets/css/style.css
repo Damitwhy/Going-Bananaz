@@ -281,9 +281,9 @@ footer i:hover {
 
 .gp-vid {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 2.5rem;
-    background-color: #f2ccc0;
 }
 
 .btn-primary {
@@ -297,9 +297,9 @@ footer i:hover {
     color: #fff;
 }
 
-#vid-header {
+/*#vid-header {
     border: 1px solid #f0835f;
-}
+}*/
 
 #iframe {
     margin: 1.5rem;

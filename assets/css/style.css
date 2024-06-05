@@ -279,6 +279,13 @@ footer i:hover {
 
 }
 
+.gp-vid {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    right: 0.5rem;
+}
+
 .btn-primary {
     background-color: #F0835F;
     color: white;

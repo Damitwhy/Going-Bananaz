@@ -10,6 +10,7 @@ Welcome to Celebrating Diversity, a platform dedicated to fostering inclusivity 
 - [Features](#features)
 - [Testing](#Testing)
 - [Technologies Used](#technologies-used)
+- [Project Board and Planning](#projects-board-and-planning) 
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Contact](#contact)

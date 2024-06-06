@@ -251,18 +251,24 @@ footer i:hover {
 }
 
 
-/* ------------------------------------------------- contact page */
+/* ------------------------------------------------- contact page styling-----*/
 
 
 
 .rounded-image {
     width: 100%;
-    max-width: 260px; /* Adjust as needed */
+    max-width: 260px; 
     height: auto;
     border-radius: 50%;
     object-fit: cover; /* Ensures the image covers the container without stretching */
     border: 3px solid #F0835F; /* Border color and thickness */
 }
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; 
 
 
 
@@ -270,6 +276,7 @@ footer i:hover {
 
 .guide-acc {
     background-color: #ffe6d6;
+
 }
 
 .list-item-heading {
@@ -298,7 +305,7 @@ footer i:hover {
 }
 
 .btn-primary:hover {
-    background-color: #e6ab98; /* A darker shade for hover effect */
+    background-color: #e6ab98; 
     color: #fff;
 }
 
@@ -315,7 +322,19 @@ footer i:hover {
 
 
 
-
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+}
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 

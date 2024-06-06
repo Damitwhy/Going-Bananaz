@@ -43,9 +43,6 @@ At Celebrating Diversity, we celebrate the beauty of our differences and the str
 
 ## Testing
 
-### Overview
-
-This section outlines the testing procedures we followed to ensure that our website functions correctly and provides a good user experience. Our testing covered all major features, different browsers, and various screen sizes.
 
 ### Features Testing
 

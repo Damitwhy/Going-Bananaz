@@ -111,13 +111,26 @@ Styling of the videos
 
 ## Technologies Used
 
-- HTML
-- CSS
-- Bootstrap
-- Balsamic
-![image](https://github.com/Damitwhy/Going-Bananaz/assets/169763112/6722ab05-9361-47eb-90d7-de279cd16ac5)
+-Balsamiq
+-KANBAN
+-Github
+-W3 Validator
+-HTML/CSS
+-Bootstrap 5
 
+## Project Board and Planning
 
+-14 User Stories
+-23 Tasks Total
+-MoSCoW Prioritisation
+-AGILE (MVP)
+-Project Backlog
+
+![Responsive sites](./assets/readme-img/Readme-backlog-projectboard.png
+)
+![Responsive sites](./assets/readme-img/Readme-MoCoW-List.png
+)
+Readme-MoCoW-List.png
 ## Deployment
 
 

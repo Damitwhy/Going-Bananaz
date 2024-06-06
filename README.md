@@ -11,7 +11,7 @@ Welcome to Celebrating Diversity, a platform dedicated to fostering inclusivity 
 - [Testing](#Testing)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
-- [License](#license)
+- [Credits](#credits)
 - [Contact](#contact)
 
 ## Introduction
@@ -154,10 +154,7 @@ The live link can be found here - https://damitwhy.github.io/Going-Bananaz/
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
 
 
 

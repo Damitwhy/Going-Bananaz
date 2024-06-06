@@ -21,6 +21,8 @@ Welcome to Celebrating Diversity, a vibrant platform dedicated to celebrating di
 
 At Celebrating Diversity, we celebrate the beauty of our differences and the strength that comes from unity. Whether through cultural showcases, personal narratives, educational resources, or legal advice, we aim to highlight the myriad ways in which diversity shapes our lives and connects us all. Join us in embracing and honoring the diverse tapestry of humanity.
 
+![alt text](./assets/readme-img/image.jpg)
+
 ## Features
 
 - **User-Friendly Interface**: An intuitive and easy-to-navigate interface ensuring a seamless user experience.

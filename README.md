@@ -27,7 +27,7 @@ At Celebrating Diversity, we celebrate the beauty of our differences and the str
 
 - **User-Friendly Interface**: An intuitive and easy-to-navigate interface ensuring a seamless user experience.
   
-- **Responsive Design**: A fully responsive design that looks and functions perfectly on desktops, tablets, and smartphones.
+- **Responsive Design**: A fully responsive design that looks and functions on desktops, tablets, and smartphones.
   
 - **Stories Section**: A dedicated section for sharing personal stories that highlight diverse experiences and perspectives.
 
@@ -130,7 +130,7 @@ Styling of the videos
 )
 ![Responsive sites](./assets/readme-img/Readme-MoCoW-List.png
 )
-Readme-MoCoW-List.png
+
 ## Deployment
 
 
@@ -144,8 +144,9 @@ The live link can be found here - https://damitwhy.github.io/Going-Bananaz/
 
 ## Credits 
 
-https://pixabay.com/
-google images
+-https://pixabay.com/
+-google images
+-youtube
 
 ### Content 
 

@@ -9,7 +9,6 @@ Welcome to Celebrating Diversity, a platform dedicated to fostering inclusivity 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Testing](#Testing)
-- [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
 - [License](#license)
@@ -104,14 +103,23 @@ During testing, any bugs or issues discovered were documented, and steps were ta
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+    - No errors were returned when passing through the official 
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - No errors were found when passing through the official 
 
 
 ### Unfixed Bugs
 
-Videos not responding
+Styling of the videos
+
+## Technologies Used
+
+- HTML
+- CSS
+- Bootstrap
+- Balsamic
+![image](https://github.com/Damitwhy/Going-Bananaz/assets/169763112/6722ab05-9361-47eb-90d7-de279cd16ac5)
+
 
 ## Deployment
 
@@ -121,14 +129,13 @@ Videos not responding
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - 
+The live link can be found here - https://damitwhy.github.io/Going-Bananaz/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+https://pixabay.com/
+google images
 
 ### Content 
 
